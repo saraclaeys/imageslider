@@ -1,2 +1,4 @@
 # imageslider
-Beginner JavaScript Projects 2/8
+Beginner JavaScript Projects 6/8 <br>
+Image Slider <br>
+Difficulty: Medium
