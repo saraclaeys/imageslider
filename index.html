@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
     <title>Image Slider</title>
 </head>
@@ -11,6 +13,8 @@
 <body>
     <h1>Image Slider</h1>
     <div class="carousel-container">
+        <i class="fas fa-angle-double-right" id="nextBtn"></i>
+        <i class="fas fa-angle-double-left" id="prevBtn"></i>
         <div class="carousel-slide">
             <img src="img/image6.jpg" id="lastClone" alt="" width="1072px" height="500px">
             <img src="img/image1.jpg" alt="" width="1072px" height="500px">
@@ -22,9 +26,6 @@
             <img src="img/image1.jpg" id="firstClone" alt="" width="1072px" height="500px">
         </div>
     </div>
-
-    <button id="prevBtn">Previous</button>
-    <button id="nextBtn">Next</button>
     <script src="js/script.js"></script>
 </body>
 
