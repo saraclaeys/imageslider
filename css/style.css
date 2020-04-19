@@ -22,7 +22,7 @@ h1 {
 .carousel-container {
     width: 70%;
     margin: auto;
-    /* overflow: hidden; */
+    overflow: hidden;
     border: 2px solid black;
 }
 
