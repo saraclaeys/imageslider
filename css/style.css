@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.carousel-container {
+    width: 60%;
+    margin: auto;
+}
